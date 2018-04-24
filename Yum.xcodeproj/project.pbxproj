@@ -15,9 +15,6 @@
 		2DFBF091208EDF90000D25C2 /* YumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF090208EDF90000D25C2 /* YumUITests.m */; };
 		2DFBF0C2208F03C6000D25C2 /* AlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF0A1208F03C5000D25C2 /* AlertHelper.m */; };
 		2DFBF0C3208F03C6000D25C2 /* AppDelegate+CurrentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF0A8208F03C5000D25C2 /* AppDelegate+CurrentVC.m */; };
-		2DFBF0C4208F03C6000D25C2 /* OperationResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF0AC208F03C5000D25C2 /* OperationResultModel.m */; };
-		2DFBF0C5208F03C6000D25C2 /* PageInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF0AD208F03C5000D25C2 /* PageInfoModel.m */; };
-		2DFBF0C6208F03C6000D25C2 /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF0B1208F03C5000D25C2 /* OrderModel.m */; };
 		2DFBF0C7208F03C6000D25C2 /* OrderApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF0B4208F03C5000D25C2 /* OrderApi.m */; };
 		2DFBF0C8208F03C6000D25C2 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF0BE208F03C6000D25C2 /* NetManager.m */; };
 		2DFBF0C9208F03C6000D25C2 /* NetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF0C0208F03C6000D25C2 /* NetTool.m */; };
@@ -37,6 +34,14 @@
 		2DFBF11F208F0999000D25C2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF11E208F0999000D25C2 /* BaseNavigationController.m */; };
 		2DFBF123208F1048000D25C2 /* AppDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF122208F1048000D25C2 /* AppDelegateHelper.m */; };
 		2DFBF129208F1BBF000D25C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFBF128208F1BBF000D25C2 /* LaunchScreen.storyboard */; };
+		2DFBF12F208F23A4000D25C2 /* OperationResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF12C208F23A4000D25C2 /* OperationResultModel.m */; };
+		2DFBF130208F23A4000D25C2 /* PageInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF12D208F23A4000D25C2 /* PageInfoModel.m */; };
+		2DFBF133208F2472000D25C2 /* OrderListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF132208F2472000D25C2 /* OrderListModel.m */; };
+		2DFBF136208F2488000D25C2 /* OrderDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF135208F2488000D25C2 /* OrderDetailModel.m */; };
+		2DFBF13A208F250E000D25C2 /* GoodsListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF139208F250E000D25C2 /* GoodsListModel.m */; };
+		2DFBF13D208F2523000D25C2 /* GoodsDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF13C208F2523000D25C2 /* GoodsDetailModel.m */; };
+		2DFBF141208F2554000D25C2 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF140208F2554000D25C2 /* UserModel.m */; };
+		2DFBF147208F2A21000D25C2 /* TimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBF146208F2A21000D25C2 /* TimeHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,12 +79,6 @@
 		2DFBF0A1208F03C5000D25C2 /* AlertHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertHelper.m; sourceTree = "<group>"; };
 		2DFBF0A7208F03C5000D25C2 /* AppDelegate+CurrentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+CurrentVC.h"; sourceTree = "<group>"; };
 		2DFBF0A8208F03C5000D25C2 /* AppDelegate+CurrentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+CurrentVC.m"; sourceTree = "<group>"; };
-		2DFBF0AB208F03C5000D25C2 /* PageInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageInfoModel.h; sourceTree = "<group>"; };
-		2DFBF0AC208F03C5000D25C2 /* OperationResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationResultModel.m; sourceTree = "<group>"; };
-		2DFBF0AD208F03C5000D25C2 /* PageInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageInfoModel.m; sourceTree = "<group>"; };
-		2DFBF0AE208F03C5000D25C2 /* OperationResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationResultModel.h; sourceTree = "<group>"; };
-		2DFBF0B1208F03C5000D25C2 /* OrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModel.m; sourceTree = "<group>"; };
-		2DFBF0B2208F03C5000D25C2 /* OrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModel.h; sourceTree = "<group>"; };
 		2DFBF0B4208F03C5000D25C2 /* OrderApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderApi.m; sourceTree = "<group>"; };
 		2DFBF0B5208F03C5000D25C2 /* OrderApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderApi.h; sourceTree = "<group>"; };
 		2DFBF0B7208F03C5000D25C2 /* ConfigUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigUrl.h; sourceTree = "<group>"; };
@@ -121,6 +120,22 @@
 		2DFBF121208F1048000D25C2 /* AppDelegateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegateHelper.h; sourceTree = "<group>"; };
 		2DFBF122208F1048000D25C2 /* AppDelegateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegateHelper.m; sourceTree = "<group>"; };
 		2DFBF128208F1BBF000D25C2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DFBF12B208F23A4000D25C2 /* PageInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageInfoModel.h; sourceTree = "<group>"; };
+		2DFBF12C208F23A4000D25C2 /* OperationResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationResultModel.m; sourceTree = "<group>"; };
+		2DFBF12D208F23A4000D25C2 /* PageInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageInfoModel.m; sourceTree = "<group>"; };
+		2DFBF12E208F23A4000D25C2 /* OperationResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationResultModel.h; sourceTree = "<group>"; };
+		2DFBF131208F2472000D25C2 /* OrderListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderListModel.h; sourceTree = "<group>"; };
+		2DFBF132208F2472000D25C2 /* OrderListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderListModel.m; sourceTree = "<group>"; };
+		2DFBF134208F2488000D25C2 /* OrderDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderDetailModel.h; sourceTree = "<group>"; };
+		2DFBF135208F2488000D25C2 /* OrderDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderDetailModel.m; sourceTree = "<group>"; };
+		2DFBF138208F250E000D25C2 /* GoodsListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsListModel.h; sourceTree = "<group>"; };
+		2DFBF139208F250E000D25C2 /* GoodsListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsListModel.m; sourceTree = "<group>"; };
+		2DFBF13B208F2523000D25C2 /* GoodsDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsDetailModel.h; sourceTree = "<group>"; };
+		2DFBF13C208F2523000D25C2 /* GoodsDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsDetailModel.m; sourceTree = "<group>"; };
+		2DFBF13F208F2554000D25C2 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		2DFBF140208F2554000D25C2 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		2DFBF145208F2A21000D25C2 /* TimeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeHelper.h; sourceTree = "<group>"; };
+		2DFBF146208F2A21000D25C2 /* TimeHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeHelper.m; sourceTree = "<group>"; };
 		3E36EFDC0A5A6D148064DF5E /* libPods-Yum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Yum.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92629BFA4A60064D64A6062 /* Pods-Yum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yum/Pods-Yum.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -234,6 +249,8 @@
 		2DFBF0A2208F03C5000D25C2 /* TimeHelper */ = {
 			isa = PBXGroup;
 			children = (
+				2DFBF145208F2A21000D25C2 /* TimeHelper.h */,
+				2DFBF146208F2A21000D25C2 /* TimeHelper.m */,
 			);
 			path = TimeHelper;
 			sourceTree = "<group>";
@@ -274,27 +291,18 @@
 		2DFBF0A9208F03C5000D25C2 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				2DFBF0AA208F03C5000D25C2 /* Common */,
 				2DFBF0AF208F03C5000D25C2 /* Model */,
 				2DFBF0B3208F03C5000D25C2 /* Api */,
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		2DFBF0AA208F03C5000D25C2 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				2DFBF0AB208F03C5000D25C2 /* PageInfoModel.h */,
-				2DFBF0AC208F03C5000D25C2 /* OperationResultModel.m */,
-				2DFBF0AD208F03C5000D25C2 /* PageInfoModel.m */,
-				2DFBF0AE208F03C5000D25C2 /* OperationResultModel.h */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
 		2DFBF0AF208F03C5000D25C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2DFBF13E208F2547000D25C2 /* UserModels */,
+				2DFBF137208F24FF000D25C2 /* GoodsModels */,
+				2DFBF12A208F23A4000D25C2 /* Common */,
 				2DFBF0B0208F03C5000D25C2 /* OrderModels */,
 			);
 			path = Model;
@@ -303,8 +311,10 @@
 		2DFBF0B0208F03C5000D25C2 /* OrderModels */ = {
 			isa = PBXGroup;
 			children = (
-				2DFBF0B1208F03C5000D25C2 /* OrderModel.m */,
-				2DFBF0B2208F03C5000D25C2 /* OrderModel.h */,
+				2DFBF131208F2472000D25C2 /* OrderListModel.h */,
+				2DFBF132208F2472000D25C2 /* OrderListModel.m */,
+				2DFBF134208F2488000D25C2 /* OrderDetailModel.h */,
+				2DFBF135208F2488000D25C2 /* OrderDetailModel.m */,
 			);
 			path = OrderModels;
 			sourceTree = "<group>";
@@ -312,8 +322,9 @@
 		2DFBF0B3208F03C5000D25C2 /* Api */ = {
 			isa = PBXGroup;
 			children = (
-				2DFBF0B4208F03C5000D25C2 /* OrderApi.m */,
-				2DFBF0B5208F03C5000D25C2 /* OrderApi.h */,
+				2DFBF143208F2599000D25C2 /* GoodsApi */,
+				2DFBF144208F2599000D25C2 /* UserApi */,
+				2DFBF142208F257B000D25C2 /* OrderApi */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -494,6 +505,60 @@
 			path = AppDelegateHelper;
 			sourceTree = "<group>";
 		};
+		2DFBF12A208F23A4000D25C2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2DFBF12B208F23A4000D25C2 /* PageInfoModel.h */,
+				2DFBF12D208F23A4000D25C2 /* PageInfoModel.m */,
+				2DFBF12E208F23A4000D25C2 /* OperationResultModel.h */,
+				2DFBF12C208F23A4000D25C2 /* OperationResultModel.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2DFBF137208F24FF000D25C2 /* GoodsModels */ = {
+			isa = PBXGroup;
+			children = (
+				2DFBF138208F250E000D25C2 /* GoodsListModel.h */,
+				2DFBF139208F250E000D25C2 /* GoodsListModel.m */,
+				2DFBF13B208F2523000D25C2 /* GoodsDetailModel.h */,
+				2DFBF13C208F2523000D25C2 /* GoodsDetailModel.m */,
+			);
+			path = GoodsModels;
+			sourceTree = "<group>";
+		};
+		2DFBF13E208F2547000D25C2 /* UserModels */ = {
+			isa = PBXGroup;
+			children = (
+				2DFBF13F208F2554000D25C2 /* UserModel.h */,
+				2DFBF140208F2554000D25C2 /* UserModel.m */,
+			);
+			path = UserModels;
+			sourceTree = "<group>";
+		};
+		2DFBF142208F257B000D25C2 /* OrderApi */ = {
+			isa = PBXGroup;
+			children = (
+				2DFBF0B5208F03C5000D25C2 /* OrderApi.h */,
+				2DFBF0B4208F03C5000D25C2 /* OrderApi.m */,
+			);
+			path = OrderApi;
+			sourceTree = "<group>";
+		};
+		2DFBF143208F2599000D25C2 /* GoodsApi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GoodsApi;
+			sourceTree = "<group>";
+		};
+		2DFBF144208F2599000D25C2 /* UserApi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserApi;
+			sourceTree = "<group>";
+		};
 		7570B8EBF3B7FE9E0DF58EA6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -662,7 +727,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DFBF0C4208F03C6000D25C2 /* OperationResultModel.m in Sources */,
 				2DFBF104208F0895000D25C2 /* U_OrderViewController.m in Sources */,
 				2DFBF113208F08DE000D25C2 /* B_OrderViewController.m in Sources */,
 				2DFBF0EA208F049C000D25C2 /* BaseScrollViewController.m in Sources */,
@@ -671,21 +735,27 @@
 				2DFBF123208F1048000D25C2 /* AppDelegateHelper.m in Sources */,
 				2DFBF0C8208F03C6000D25C2 /* NetManager.m in Sources */,
 				2DFBF0C7208F03C6000D25C2 /* OrderApi.m in Sources */,
-				2DFBF0C5208F03C6000D25C2 /* PageInfoModel.m in Sources */,
 				2DFBF10A208F08AD000D25C2 /* U_CollectViewController.m in Sources */,
+				2DFBF13A208F250E000D25C2 /* GoodsListModel.m in Sources */,
+				2DFBF130208F23A4000D25C2 /* PageInfoModel.m in Sources */,
 				2DFBF107208F08A2000D25C2 /* U_NearbyViewController.m in Sources */,
 				2DFBF0C9208F03C6000D25C2 /* NetTool.m in Sources */,
 				2DFBF0C2208F03C6000D25C2 /* AlertHelper.m in Sources */,
-				2DFBF0C6208F03C6000D25C2 /* OrderModel.m in Sources */,
+				2DFBF141208F2554000D25C2 /* UserModel.m in Sources */,
 				2DFBF07C208EDF90000D25C2 /* main.m in Sources */,
 				2DFBF0E8208F049C000D25C2 /* BaseViewController.m in Sources */,
 				2DFBF0C3208F03C6000D25C2 /* AppDelegate+CurrentVC.m in Sources */,
 				2DFBF110208F08D2000D25C2 /* LoginViewController.m in Sources */,
+				2DFBF133208F2472000D25C2 /* OrderListModel.m in Sources */,
 				2DFBF0E9208F049C000D25C2 /* BaseSearchViewController.m in Sources */,
+				2DFBF12F208F23A4000D25C2 /* OperationResultModel.m in Sources */,
+				2DFBF13D208F2523000D25C2 /* GoodsDetailModel.m in Sources */,
 				2DFBF0E7208F049C000D25C2 /* BaseTableViewController.m in Sources */,
 				2DFBF11F208F0999000D25C2 /* BaseNavigationController.m in Sources */,
 				2DFBF06E208EDF8F000D25C2 /* AppDelegate.m in Sources */,
+				2DFBF147208F2A21000D25C2 /* TimeHelper.m in Sources */,
 				2DFBF11C208F0901000D25C2 /* B_StatisticsViewController.m in Sources */,
+				2DFBF136208F2488000D25C2 /* OrderDetailModel.m in Sources */,
 				2DFBF116208F08E9000D25C2 /* B_MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

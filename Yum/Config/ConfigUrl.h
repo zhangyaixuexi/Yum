@@ -21,19 +21,19 @@
 
 
 
-
-
 #pragma mark -- port list
 /* 订单 */
-#define Order_List  @"orderList"
+#define Order_List          @"orderList"
+#define Order_Detail        @"orderList"
 
 
-
+/* 收藏 */
 
 
 /* 用户 */
-
-
+#define User_Login          @"login"
+#define User_Register       @""
+#define user_ResetPwd       @""
 
 
 

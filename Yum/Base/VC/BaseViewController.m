@@ -65,6 +65,20 @@
     [self updateScrollViewFrame];
 }
 
+
+/**
+ 设置顶部和底部偏移
+
+ @param offsetTop 顶部偏移量
+ @param offsetBot 底部偏移量
+ */
+- (void)setOffsetTop:(CGFloat)offsetTop offsetBot:(CGFloat)offsetBot
+{
+    _offsetBot = offsetBot;
+    _offsetTop = offsetTop;
+    [self updateScrollViewFrame];
+}
+
 - (void)updateScrollViewFrame
 {
     

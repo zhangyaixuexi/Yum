@@ -21,8 +21,10 @@
 /* tool */
 #define _window        ((AppDelegate *)[UIApplication sharedApplication].delegate).window
 
-#define SYSTEM_11      ([[[UIDevice currentDevice] systemVersion] floatValue] >=11.0)           //系统是否大于等于11
-#define IPHONE_X       (SCREEN_H == 812)                                                        //是否是iPhone X
+    //系统是否大于等于11
+#define SYSTEM_11      ([[[UIDevice currentDevice] systemVersion] floatValue] >=11.0)
+    //是否是iPhone X
+#define IPHONE_X       (SCREEN_H == 812)
 
 #define weakify(var)    __weak typeof(var) weakSelf = var
 #define strongify(var)  __strong typeof(var) strongSelf = var
@@ -31,9 +33,11 @@
 #define SCREEN_H       [UIScreen mainScreen].bounds.size.height
 #define SCREEN_W       [UIScreen mainScreen].bounds.size.width
 
-#define TOPBAR_H       ([UIApplication sharedApplication].statusBarFrame.size.height + 44)      //statusBar + navBar
-#define TABBAR_H       (IPHONE_X ? 83 : 49)                                                     //tabBar
-#define IPHONE_X_BOT_H  (IPHONE_X ? 34 : 0)                                                      //iPhone X 底部不安全区域
+    //statusBar + navBar
+#define TOPBAR_H       ([UIApplication sharedApplication].statusBarFrame.size.height + 44)
+    //tabBar
+#define TABBAR_H       (IPHONE_X ? 83 : 49)
+#define IPHONE_X_BOT_H  (IPHONE_X ? 34 : 0)
 
 #define SEARCH_BAR_H   (SYSTEM_11 ? 56 : 44)
 
@@ -54,6 +58,15 @@
 
 /* notif name */
 #define AppDelegate_ChangeAuthType_Notif @"AppDelegate_ChangeAuthType_Notif"
+
+
+
+
+
+
+
+
+
 
 #endif /* ConfigTool_h */
 

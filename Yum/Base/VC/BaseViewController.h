@@ -37,6 +37,14 @@ typedef NS_ENUM(NSInteger,BaseViewMode){
  */
 @property (nonatomic, assign) CGFloat               offsetBot;
 
+/**
+ 设置顶部和底部偏移
+ 
+ @param offsetTop 顶部偏移量
+ @param offsetBot 底部偏移量
+ */
+- (void)setOffsetTop:(CGFloat)offsetTop offsetBot:(CGFloat)offsetBot;
+
 
 - (CGFloat)getBotHeight;
 
